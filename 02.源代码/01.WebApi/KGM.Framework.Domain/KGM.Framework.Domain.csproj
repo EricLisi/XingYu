@@ -1,0 +1,67 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Model\System\Competence\**" />
+    <Compile Remove="Model\System\ItemsDetail\**" />
+    <Compile Remove="Model\System\Items\**" />
+    <Compile Remove="Model\System\ModuleButton\**" />
+    <Compile Remove="Model\System\ModuleColumn\**" />
+    <Compile Remove="Model\System\ModuleForm\**" />
+    <Compile Remove="Model\System\Post\**" />
+    <Compile Remove="Model\System\RoleModuleButton\**" />
+    <Compile Remove="Model\System\RoleModuleColumn\**" />
+    <Compile Remove="Model\System\RoleModuleForm\**" />
+    <Compile Remove="Model\System\RoleModule\**" />
+    <Compile Remove="Model\System\RolePlat\**" />
+    <Compile Remove="Model\System\UserCompany\**" />
+    <Compile Remove="Model\System\UserDepartment\**" />
+    <EmbeddedResource Remove="Model\System\Competence\**" />
+    <EmbeddedResource Remove="Model\System\ItemsDetail\**" />
+    <EmbeddedResource Remove="Model\System\Items\**" />
+    <EmbeddedResource Remove="Model\System\ModuleButton\**" />
+    <EmbeddedResource Remove="Model\System\ModuleColumn\**" />
+    <EmbeddedResource Remove="Model\System\ModuleForm\**" />
+    <EmbeddedResource Remove="Model\System\Post\**" />
+    <EmbeddedResource Remove="Model\System\RoleModuleButton\**" />
+    <EmbeddedResource Remove="Model\System\RoleModuleColumn\**" />
+    <EmbeddedResource Remove="Model\System\RoleModuleForm\**" />
+    <EmbeddedResource Remove="Model\System\RoleModule\**" />
+    <EmbeddedResource Remove="Model\System\RolePlat\**" />
+    <EmbeddedResource Remove="Model\System\UserCompany\**" />
+    <EmbeddedResource Remove="Model\System\UserDepartment\**" />
+    <None Remove="Model\System\Competence\**" />
+    <None Remove="Model\System\ItemsDetail\**" />
+    <None Remove="Model\System\Items\**" />
+    <None Remove="Model\System\ModuleButton\**" />
+    <None Remove="Model\System\ModuleColumn\**" />
+    <None Remove="Model\System\ModuleForm\**" />
+    <None Remove="Model\System\Post\**" />
+    <None Remove="Model\System\RoleModuleButton\**" />
+    <None Remove="Model\System\RoleModuleColumn\**" />
+    <None Remove="Model\System\RoleModuleForm\**" />
+    <None Remove="Model\System\RoleModule\**" />
+    <None Remove="Model\System\RolePlat\**" />
+    <None Remove="Model\System\UserCompany\**" />
+    <None Remove="Model\System\UserDepartment\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="KGM.Framework.Domain.Core">
+      <HintPath>..\KGM.Framework.Dll\KGM.Framework.Domain.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="KGM.Framework.Infrastructure">
+      <HintPath>..\KGM.Framework.Dll\KGM.Framework.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.EntityFrameworkCore.Abstractions">
+      <HintPath>C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.entityframeworkcore.abstractions\2.1.1\lib\netstandard2.0\Microsoft.EntityFrameworkCore.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Annotations">
+      <HintPath>C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.ComponentModel.Annotations.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

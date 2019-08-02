@@ -1,0 +1,4 @@
+﻿{
+  "server.urls": "http://*:8001", //配置网站节点
+  "environment": "Production" //配置环境
+}

@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.使用前相关", "01.使用前相关", "{7165AAD2-C200-48A7-B6B8-4A704E54A7A9}"
+	ProjectSection(SolutionItems) = preProject
+		框架简介.md = 框架简介.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KGM.Framework.Domain", "KGM.Framework.Domain\KGM.Framework.Domain.csproj", "{2E5B793C-A9D2-4B3E-86CC-C4DC69974FB4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.User Interface", "01.User Interface", "{F2B1BDEA-A494-459C-A6E7-BF72AC934141}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.Application", "02.Application", "{CD820724-3122-4573-9C3C-31C48EA5B0BE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.Domain", "03.Domain", "{A99FB490-B804-43A0-97E1-DBC5C3DCBE91}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.Infrastructure", "04.Infrastructure", "{952980D0-8C23-4425-9821-E19401293D97}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KGM.Framework.Application", "KGM.Framework.Application\KGM.Framework.Application.csproj", "{8B4E42A8-5177-4F13-9E82-2162EED79F35}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.项目代码", "02.项目代码", "{4CE162F9-0515-4FCF-88B8-42EA7673C0CB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KGM.Framework.WebApi", "KGM.Framework.WebApi\KGM.Framework.WebApi.csproj", "{514307C8-8477-4B31-A02F-DAB3246F4D60}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KGM.Framework.RepositoryEF", "KGM.Framework.RepositoryEF\KGM.Framework.RepositoryEF.csproj", "{CD34B693-D9D7-4D0D-BBF8-BCBB4FF9489E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E5B793C-A9D2-4B3E-86CC-C4DC69974FB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E5B793C-A9D2-4B3E-86CC-C4DC69974FB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E5B793C-A9D2-4B3E-86CC-C4DC69974FB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E5B793C-A9D2-4B3E-86CC-C4DC69974FB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B4E42A8-5177-4F13-9E82-2162EED79F35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B4E42A8-5177-4F13-9E82-2162EED79F35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B4E42A8-5177-4F13-9E82-2162EED79F35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B4E42A8-5177-4F13-9E82-2162EED79F35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{514307C8-8477-4B31-A02F-DAB3246F4D60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{514307C8-8477-4B31-A02F-DAB3246F4D60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{514307C8-8477-4B31-A02F-DAB3246F4D60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{514307C8-8477-4B31-A02F-DAB3246F4D60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD34B693-D9D7-4D0D-BBF8-BCBB4FF9489E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD34B693-D9D7-4D0D-BBF8-BCBB4FF9489E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD34B693-D9D7-4D0D-BBF8-BCBB4FF9489E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD34B693-D9D7-4D0D-BBF8-BCBB4FF9489E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2E5B793C-A9D2-4B3E-86CC-C4DC69974FB4} = {A99FB490-B804-43A0-97E1-DBC5C3DCBE91}
+		{F2B1BDEA-A494-459C-A6E7-BF72AC934141} = {4CE162F9-0515-4FCF-88B8-42EA7673C0CB}
+		{CD820724-3122-4573-9C3C-31C48EA5B0BE} = {4CE162F9-0515-4FCF-88B8-42EA7673C0CB}
+		{A99FB490-B804-43A0-97E1-DBC5C3DCBE91} = {4CE162F9-0515-4FCF-88B8-42EA7673C0CB}
+		{952980D0-8C23-4425-9821-E19401293D97} = {4CE162F9-0515-4FCF-88B8-42EA7673C0CB}
+		{8B4E42A8-5177-4F13-9E82-2162EED79F35} = {CD820724-3122-4573-9C3C-31C48EA5B0BE}
+		{514307C8-8477-4B31-A02F-DAB3246F4D60} = {F2B1BDEA-A494-459C-A6E7-BF72AC934141}
+		{CD34B693-D9D7-4D0D-BBF8-BCBB4FF9489E} = {952980D0-8C23-4425-9821-E19401293D97}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {91EDF3A2-2FAF-4385-BB89-821D3B0D9C57}
+	EndGlobalSection
+EndGlobal

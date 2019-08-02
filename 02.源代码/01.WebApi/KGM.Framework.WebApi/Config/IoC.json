@@ -1,0 +1,23 @@
+﻿{
+  "Assmblies": [
+    {
+      "Path": "",
+      "Assmblies": "KGM.Framework.Application"
+    },
+    {
+      "Path": "netstandard2.0\\",
+      "Assmblies": "KGM.Framework.RepositoryEF"
+    }
+  ],
+  "components": [
+    {
+      "type": "KGM.Framework.Infrastructure.KgmMemoryCache, KGM.Framework.Infrastructure",
+      "services": [
+        {
+          "type": "KGM.Framework.Infrastructure.ICache, KGM.Framework.Infrastructure"
+        }
+      ],
+      "injectProperties": true
+    }
+  ]
+}

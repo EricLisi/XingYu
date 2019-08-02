@@ -1,0 +1,7 @@
+﻿{
+  "ConnectionStrings": { //连接设置
+    "sqlserverConnection": "server=192.168.168.48;database=xycd_sm1;uid=sa;pwd=zzz;",
+    //"sqlserverConnection": "server=172.16.100.84;database=xycd_sm;uid=sa;pwd=novell;",
+    "DbType": "sqlserver"
+  }
+}

@@ -1,0 +1,16 @@
+D:\X 项目管理\Czxy_PackagePrint\02.源代码\01.WebApi\KGM.Framework.Domain\obj\Debug\netstandard2.0\KGM.Framework.Domain.csproj.CoreCompileInputs.cache
+D:\X 项目管理\Czxy_PackagePrint\02.源代码\01.WebApi\KGM.Framework.Domain\obj\Debug\netstandard2.0\KGM.Framework.Domain.AssemblyInfoInputs.cache
+D:\X 项目管理\Czxy_PackagePrint\02.源代码\01.WebApi\KGM.Framework.Domain\obj\Debug\netstandard2.0\KGM.Framework.Domain.AssemblyInfo.cs
+D:\X 项目管理\Czxy_PackagePrint\02.源代码\01.WebApi\KGM.Framework.Domain\bin\Debug\netstandard2.0\KGM.Framework.Domain.deps.json
+D:\X 项目管理\Czxy_PackagePrint\02.源代码\01.WebApi\KGM.Framework.Domain\bin\Debug\netstandard2.0\KGM.Framework.Domain.dll
+D:\X 项目管理\Czxy_PackagePrint\02.源代码\01.WebApi\KGM.Framework.Domain\bin\Debug\netstandard2.0\KGM.Framework.Domain.pdb
+D:\X 项目管理\Czxy_PackagePrint\02.源代码\01.WebApi\KGM.Framework.Domain\bin\Debug\netstandard2.0\KGM.Framework.Domain.Core.dll
+D:\X 项目管理\Czxy_PackagePrint\02.源代码\01.WebApi\KGM.Framework.Domain\bin\Debug\netstandard2.0\KGM.Framework.Infrastructure.dll
+D:\X 项目管理\Czxy_PackagePrint\02.源代码\01.WebApi\KGM.Framework.Domain\bin\Debug\netstandard2.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\X 项目管理\Czxy_PackagePrint\02.源代码\01.WebApi\KGM.Framework.Domain\bin\Debug\netstandard2.0\System.ComponentModel.Annotations.dll
+D:\X 项目管理\Czxy_PackagePrint\02.源代码\01.WebApi\KGM.Framework.Domain\bin\Debug\netstandard2.0\Microsoft.EntityFrameworkCore.Abstractions.xml
+D:\X 项目管理\Czxy_PackagePrint\02.源代码\01.WebApi\KGM.Framework.Domain\bin\Debug\netstandard2.0\System.ComponentModel.Annotations.xml
+D:\X 项目管理\Czxy_PackagePrint\02.源代码\01.WebApi\KGM.Framework.Domain\obj\Debug\netstandard2.0\KGM.Framework.Domain.csproj.CopyComplete
+D:\X 项目管理\Czxy_PackagePrint\02.源代码\01.WebApi\KGM.Framework.Domain\obj\Debug\netstandard2.0\KGM.Framework.Domain.dll
+D:\X 项目管理\Czxy_PackagePrint\02.源代码\01.WebApi\KGM.Framework.Domain\obj\Debug\netstandard2.0\KGM.Framework.Domain.pdb
+D:\X 项目管理\Czxy_PackagePrint\02.源代码\01.WebApi\KGM.Framework.Domain\obj\Debug\netstandard2.0\KGM.Framework.Domain.csprojAssemblyReference.cache

@@ -1,0 +1,123 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>..\KGM.Framework.WebApi\bin\Debug\netcoreapp2.1\KGM.Framework.Application.xml</DocumentationFile>
+    <OutputPath></OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Dtos\Common\**" />
+    <Compile Remove="Dtos\Model\**" />
+    <Compile Remove="Dtos\System\Competence\**" />
+    <Compile Remove="Dtos\System\ItemsDetail\**" />
+    <Compile Remove="Dtos\System\Items\**" />
+    <Compile Remove="Dtos\System\Post\**" />
+    <Compile Remove="Dtos\System\RoleModuleButton\**" />
+    <Compile Remove="Dtos\System\RoleModuleColumn\**" />
+    <Compile Remove="Dtos\System\RoleModuleForm\**" />
+    <Compile Remove="Dtos\System\RolePlat\**" />
+    <Compile Remove="Dtos\System\UserDepartment\**" />
+    <Compile Remove="Services\System\Competence\**" />
+    <Compile Remove="Services\System\ItemsDetail\**" />
+    <Compile Remove="Services\System\Items\**" />
+    <Compile Remove="Services\System\ModuleButton\**" />
+    <Compile Remove="Services\System\ModuleColumn\**" />
+    <Compile Remove="Services\System\ModuleForm\**" />
+    <Compile Remove="Services\System\Post\**" />
+    <Compile Remove="Services\System\RoleModuleButton\**" />
+    <Compile Remove="Services\System\RoleModuleColumn\**" />
+    <Compile Remove="Services\System\RoleModuleForm\**" />
+    <Compile Remove="Services\System\RoleModule\**" />
+    <Compile Remove="Services\System\RolePlat\**" />
+    <Compile Remove="Services\System\UserCompany\**" />
+    <Compile Remove="Services\System\UserDepartment\**" />
+    <EmbeddedResource Remove="Dtos\Common\**" />
+    <EmbeddedResource Remove="Dtos\Model\**" />
+    <EmbeddedResource Remove="Dtos\System\Competence\**" />
+    <EmbeddedResource Remove="Dtos\System\ItemsDetail\**" />
+    <EmbeddedResource Remove="Dtos\System\Items\**" />
+    <EmbeddedResource Remove="Dtos\System\Post\**" />
+    <EmbeddedResource Remove="Dtos\System\RoleModuleButton\**" />
+    <EmbeddedResource Remove="Dtos\System\RoleModuleColumn\**" />
+    <EmbeddedResource Remove="Dtos\System\RoleModuleForm\**" />
+    <EmbeddedResource Remove="Dtos\System\RolePlat\**" />
+    <EmbeddedResource Remove="Dtos\System\UserDepartment\**" />
+    <EmbeddedResource Remove="Services\System\Competence\**" />
+    <EmbeddedResource Remove="Services\System\ItemsDetail\**" />
+    <EmbeddedResource Remove="Services\System\Items\**" />
+    <EmbeddedResource Remove="Services\System\ModuleButton\**" />
+    <EmbeddedResource Remove="Services\System\ModuleColumn\**" />
+    <EmbeddedResource Remove="Services\System\ModuleForm\**" />
+    <EmbeddedResource Remove="Services\System\Post\**" />
+    <EmbeddedResource Remove="Services\System\RoleModuleButton\**" />
+    <EmbeddedResource Remove="Services\System\RoleModuleColumn\**" />
+    <EmbeddedResource Remove="Services\System\RoleModuleForm\**" />
+    <EmbeddedResource Remove="Services\System\RoleModule\**" />
+    <EmbeddedResource Remove="Services\System\RolePlat\**" />
+    <EmbeddedResource Remove="Services\System\UserCompany\**" />
+    <EmbeddedResource Remove="Services\System\UserDepartment\**" />
+    <None Remove="Dtos\Common\**" />
+    <None Remove="Dtos\Model\**" />
+    <None Remove="Dtos\System\Competence\**" />
+    <None Remove="Dtos\System\ItemsDetail\**" />
+    <None Remove="Dtos\System\Items\**" />
+    <None Remove="Dtos\System\Post\**" />
+    <None Remove="Dtos\System\RoleModuleButton\**" />
+    <None Remove="Dtos\System\RoleModuleColumn\**" />
+    <None Remove="Dtos\System\RoleModuleForm\**" />
+    <None Remove="Dtos\System\RolePlat\**" />
+    <None Remove="Dtos\System\UserDepartment\**" />
+    <None Remove="Services\System\Competence\**" />
+    <None Remove="Services\System\ItemsDetail\**" />
+    <None Remove="Services\System\Items\**" />
+    <None Remove="Services\System\ModuleButton\**" />
+    <None Remove="Services\System\ModuleColumn\**" />
+    <None Remove="Services\System\ModuleForm\**" />
+    <None Remove="Services\System\Post\**" />
+    <None Remove="Services\System\RoleModuleButton\**" />
+    <None Remove="Services\System\RoleModuleColumn\**" />
+    <None Remove="Services\System\RoleModuleForm\**" />
+    <None Remove="Services\System\RoleModule\**" />
+    <None Remove="Services\System\RolePlat\**" />
+    <None Remove="Services\System\UserCompany\**" />
+    <None Remove="Services\System\UserDepartment\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.8.1" />
+    <PackageReference Include="Autofac.Configuration" Version="4.1.0" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.3.1" />
+    <PackageReference Include="Autofac.Extras.DynamicProxy" Version="4.5.0" />
+    <PackageReference Include="AutoMapper" Version="8.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="2.1.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+    <PackageReference Include="NLog.Web.AspNetCore" Version="4.7.0" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="4.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\KGM.Framework.Domain\KGM.Framework.Domain.csproj" />
+    <ProjectReference Include="..\KGM.Framework.RepositoryEF\KGM.Framework.RepositoryEF.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="KGM.Framework.Application.Core">
+      <HintPath>..\KGM.Framework.Dll\KGM.Framework.Application.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="KGM.Framework.Domain.Core">
+      <HintPath>..\KGM.Framework.Dll\KGM.Framework.Domain.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="KGM.Framework.Infrastructure">
+      <HintPath>..\KGM.Framework.Dll\KGM.Framework.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="KGM.Framework.IoC">
+      <HintPath>..\KGM.Framework.Dll\KGM.Framework.IoC.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

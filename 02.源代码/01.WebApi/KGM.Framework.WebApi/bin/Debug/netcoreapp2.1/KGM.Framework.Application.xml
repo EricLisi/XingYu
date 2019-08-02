@@ -1,0 +1,1657 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>KGM.Framework.Application</name>
+    </assembly>
+    <members>
+        <member name="T:KGM.Framework.Application.AutoMapping.AutoMapperConfig">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:KGM.Framework.Application.AutoMapping.AutoMapperConfig.RegisterAutoMapper(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            注册AutoMapper
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="T:KGM.Framework.Application.AutoMapping.AutoMapperProfile">
+            <summary>
+            AutoMapper注册类
+            </summary>
+        </member>
+        <member name="M:KGM.Framework.Application.AutoMapping.AutoMapperProfile.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="T:KGM.Framework.Application.Dtos.PackageInventorySingleDto">
+            <summary>
+            包装仓库Dto
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.PackageInventorySingleDto.cInvStd">
+            <summary>
+            规格
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.PackageInventorySingleDto.Unit">
+            <summary>
+            计量单位
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.PackageInventorySingleDto.ClassIfyName">
+            <summary>
+            分类名称
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.PackageInventorySingleDto.cInvCode">
+            <summary>
+            物料编码
+            </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.PackageInventorySingleDto.cInvName">
+            <summary>
+            物料名称
+            </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.PackageInventorySingleDto.ConstantVolume">
+            <summary>
+            定容
+            </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.PackageInventorySingleDto.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.PackageInventorySingleDto.EnCode">
+            <summary>
+            图号
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.PackageInventorySingleDto.PutcWhName">
+            <summary>
+            入库名称
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.PackageInventorySingleDto.OutcWhName">
+            <summary>
+            出库名称
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.PackageInventorySingleDto.Desc">
+            <summary>
+            排序
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.PackageInventorySingleDto.Packing">
+            <summary>
+            装箱数
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.PackageInventorySingleDto.OutStorage">
+            <summary>
+            调出仓库
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.PackageInventorySingleDto.PutStorage">
+            <summary>
+            调入仓库
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.PackageInventorySingleDto.FreezeStatus">
+            <summary>
+            冻结状态
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.PackageInventorySingleDto.Define1">
+            <summary>
+            左右灯
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.PackageInventorySingleDto.Define2">
+            <summary>
+            工位
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.PackageInventorySingleDto.Define3">
+            <summary>
+            工位
+            </summary>
+        </member>
+        <member name="T:KGM.Framework.Application.Dtos.PackageInventoryTaskSingleDto">
+            <summary>
+            任务/档案晒图
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.PackageInventoryTaskSingleDto.UserId">
+            <summary>
+            用户Id
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.PackageInventoryTaskSingleDto.TaskId">
+            <summary>
+            任务Id
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.PackageInventoryTaskSingleDto.cInvCode">
+            <summary>
+            物料编码
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.PackageInventoryTaskSingleDto.cInvName">
+            <summary>
+            物料mc
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.PackageInventoryTaskSingleDto.Qty">
+            <summary>
+            任务数量
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.PackageInventoryTaskSingleDto.Address">
+            <summary>
+            地址
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.PackageInventoryTaskSingleDto.cBatch">
+            <summary>
+            批次
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.PackageInventoryTaskSingleDto.WorkCode">
+            <summary>
+            工号
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.PackageInventoryTaskSingleDto.Desc">
+            <summary>
+            描述
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.PackageInventoryTaskSingleDto.GroupId">
+            <summary>
+            分组Id
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.PackageInventoryTaskSingleDto.Compel">
+            <summary>
+            强制打印
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.PackageInventoryTaskSingleDto.WorkStations">
+            <summary>
+            工位
+            </summary>
+        </member>
+        <member name="T:KGM.Framework.Application.Dtos.PositionFilesSingleDto">
+            <summary>
+            工位档案
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.PositionFilesSingleDto.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.PositionFilesSingleDto.PositionCode">
+            <summary>
+            工位号
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.PositionFilesSingleDto.cWhCode">
+            <summary>
+            仓库号
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.PrintLogGetDto.Id">
+            <summary>
+            用户
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.PrintLogGetDto2.User">
+            <summary>
+            用户
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.PrintLogGetDto2.cWhCode">
+            <summary>
+            仓库
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.PrintLogGetDto2.cInvCode">
+            <summary>
+            物料
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.PrintLogGetDto2.TaskId">
+            <summary>
+            任务Id
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.PrintLogGetDto2.Qty">
+            <summary>
+            数量
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.PrintLogGetDto2.Address">
+            <summary>
+            地址
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.PrintLogGetDto2.cBatch">
+            <summary>
+            批次
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.PrintLogGetDto2.WorkCode">
+            <summary>
+            工位
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.PrintLogGetDto2.Desc">
+            <summary>
+             描述
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.PrintLogGetDto2.BarCode">
+            <summary>
+             条码
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.PrintLogGetDto2.TaskGroupId">
+            <summary>
+             任务分组Id
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.PrintLogGetDto2.CreatorTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.PrintLogGetDto2.Status">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="T:KGM.Framework.Application.Dtos.PrintLogSingleDto">
+            <summary>
+            打印记录dto
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.PrintLogSingleDto.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.PrintLogSingleDto.User">
+            <summary>
+            用户
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.PrintLogSingleDto.cWhCode">
+            <summary>
+            仓库
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.PrintLogSingleDto.cInvCode">
+            <summary>
+            物料
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.PrintLogSingleDto.TaskId">
+            <summary>
+            任务Id
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.PrintLogSingleDto.Qty">
+            <summary>
+            数量
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.PrintLogSingleDto.Address">
+            <summary>
+            地址
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.PrintLogSingleDto.cBatch">
+            <summary>
+            批次
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.PrintLogSingleDto.WorkCode">
+            <summary>
+            工位
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.PrintLogSingleDto.Desc">
+            <summary>
+             描述
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.PrintLogSingleDto.BarCode">
+            <summary>
+             条码
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.PrintLogSingleDto.TaskGroupId">
+            <summary>
+             任务分组Id
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.PrintLogSingleDto.CreatorTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.PrintLogSingleDto.Status">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="T:KGM.Framework.Application.Dtos.AllocationTaskDto">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.AllocationTaskDto.UserId">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.AllocationTaskDto.tasks">
+            <summary>
+             task字符串
+            </summary>
+        </member>
+        <member name="T:KGM.Framework.Application.Dtos.TaskSingleDto">
+            <summary>
+            任务记录Dto
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.TaskSingleDto.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.TaskSingleDto.TaskId">
+            <summary>
+            任务编号
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.TaskSingleDto.OperationUser">
+            <summary>
+            操作用户
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.TaskSingleDto.WorkStations">
+            <summary>
+            工位
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.TaskSingleDto.WareHouse">
+            <summary>
+            仓库
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.TaskSingleDto.Status">
+            <summary>
+            任务状态
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.TaskSingleDto.Count">
+            <summary>
+            任务数量
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.TaskSingleDto.CinvCode">
+            <summary>
+            物料编码 
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.TaskSingleDto.GroupId">
+            <summary>
+            分组编码
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.TaskSingleDto.Cbatch">
+            <summary>
+            批次
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.TaskSingleDto.CreatorUserId">
+            <summary>
+            创建用户
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.TaskSingleDto.CreatorTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.TaskSingleDto.WareHouseName">
+            <summary>
+            仓库名
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.TaskSingleDto.UserAccount">
+            <summary>
+            操作用户账户
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.TaskSingleDto.RealName">
+            <summary>
+            操作用户真实姓名
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.TaskSingleDto.Define1">
+            <summary>
+            临时打印记录
+            </summary>
+        </member>
+        <member name="T:KGM.Framework.Application.Dtos.UserProfilesSingleDto">
+            <summary>
+            用户档案Dto
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserProfilesSingleDto.IsAdmin">
+            <summary>
+            加密秘钥
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserProfilesSingleDto.Secretkey">
+            <summary>
+            加密秘钥
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserProfilesSingleDto.RealName">
+            <summary>
+            真实姓名
+            </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserProfilesSingleDto.NickName">
+            <summary>
+            昵称
+            </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserProfilesSingleDto.Account">
+            <summary>
+            账户
+            </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserProfilesSingleDto.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserProfilesSingleDto.EnCode">
+            <summary>
+            工号
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserProfilesSingleDto.cWhName">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserProfilesSingleDto.WorkStation">
+             <summary>
+            工位
+             </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserProfilesSingleDto.Profession">
+            <summary>
+            工种
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserProfilesSingleDto.Password">
+            <summary>
+            密码
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserProfilesSingleDto.Storage">
+            <summary>
+            仓库
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserProfilesSingleDto.Status">
+            <summary>
+            冻结状态
+            </summary>
+        </member>
+        <member name="T:KGM.Framework.Application.Dtos.UserAddDto">
+            <summary>
+            用户Dto
+            </summary>
+        </member>
+        <member name="M:KGM.Framework.Application.Dtos.UserAddDto.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserAddDto.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserAddDto.EnCode">
+            <summary>
+            工号
+            </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserAddDto.RoleId">
+            <summary>
+             角色Id
+             </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserAddDto.Mobile">
+            <summary>
+             电话
+             </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserAddDto.PassWord">
+            <summary>
+            密码
+            </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserAddDto.Account">
+            <summary>
+            账户
+            </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserAddDto.RealName">
+            <summary>
+            真实姓名
+            </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserAddDto.NickName">
+            <summary>
+            昵称
+            </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserAddDto.HeadIcon">
+            <summary>
+            用户头像
+            </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserAddDto.CompanyId">
+            <summary>
+            公司ID
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserAddDto.Gender">
+            <summary>
+             角色性别
+             </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserAddDto.Birthday">
+            <summary>
+             生日
+             </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserAddDto.Email">
+            <summary>
+             邮箱
+             </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserAddDto.PhoneTel">
+            <summary>
+             电话
+             </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserAddDto.OICQ">
+            <summary>
+             QQ
+             </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserAddDto.WeChat">
+            <summary>
+             微信
+             </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserAddDto.DepartmentId">
+            <summary>
+            部门Id
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserAddDto.SortCode">
+            <summary>
+            排序码
+            </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserAddDto.DeleteMark">
+            <summary>
+            删除标志
+            </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserAddDto.EnabledMark">
+            <summary>
+            有效标志
+            </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserAddDto.Description">
+            <summary>
+            描述
+            </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserAddDto.CreatorTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserAddDto.CreatorUserId">
+            <summary>
+            创建用户
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserAddDto.LastModifyTime">
+            <summary>
+            最后修改时间
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserAddDto.LastModifyUserId">
+            <summary>
+            最后修改用户
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserAddDto.DeleteTime">
+            <summary>
+            删除时间
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserAddDto.DeleteUserId">
+            <summary>
+            删除用户
+            </summary> 
+        </member>
+        <member name="T:KGM.Framework.Application.Dtos.UserGetAuthToken">
+            <summary>
+            登录对象
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserGetAuthToken.Account">
+            <summary>
+            用户账户
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserGetAuthToken.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="T:KGM.Framework.Application.Dtos.UserGetDto">
+            <summary>
+            用户Dto
+            </summary>
+        </member>
+        <member name="M:KGM.Framework.Application.Dtos.UserGetDto.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserGetDto.WarehouseId">
+            <summary>
+            仓库Id
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserGetDto.WarehouseName">
+            <summary>
+            仓库名称
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserGetDto.CustomerId">
+            <summary>
+            客户Id
+            </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserGetDto.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserGetDto.EnCode">
+            <summary>
+            工号
+            </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserGetDto.RoleId">
+            <summary>
+             角色Id
+             </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserGetDto.Mobile">
+            <summary>
+             电话
+             </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserGetDto.PassWord">
+            <summary>
+            密码
+            </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserGetDto.Account">
+            <summary>
+            账户
+            </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserGetDto.RealName">
+            <summary>
+            真实姓名
+            </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserGetDto.NickName">
+            <summary>
+            昵称
+            </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserGetDto.HeadIcon">
+            <summary>
+            用户头像
+            </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserGetDto.CompanyId">
+            <summary>
+            公司ID
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserGetDto.Gender">
+            <summary>
+             角色性别
+             </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserGetDto.Birthday">
+            <summary>
+             生日
+             </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserGetDto.Email">
+            <summary>
+             邮箱
+             </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserGetDto.PhoneTel">
+            <summary>
+             电话
+             </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserGetDto.OICQ">
+            <summary>
+             QQ
+             </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserGetDto.WeChat">
+            <summary>
+             微信
+             </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserGetDto.DepartmentId">
+            <summary>
+            部门Id
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserGetDto.SortCode">
+            <summary>
+            排序码
+            </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserGetDto.DeleteMark">
+            <summary>
+            删除标志
+            </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserGetDto.EnabledMark">
+            <summary>
+            有效标志
+            </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserGetDto.Description">
+            <summary>
+            描述
+            </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserGetDto.CreatorTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserGetDto.CreatorUserId">
+            <summary>
+            创建用户
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserGetDto.LastModifyTime">
+            <summary>
+            最后修改时间
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserGetDto.LastModifyUserId">
+            <summary>
+            最后修改用户
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserGetDto.DeleteTime">
+            <summary>
+            删除时间
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserGetDto.DeleteUserId">
+            <summary>
+            删除用户
+            </summary> 
+        </member>
+        <member name="T:KGM.Framework.Application.Dtos.UserLoginDto">
+            <summary>
+            登录对象
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserLoginDto.Account">
+            <summary>
+            用户账户
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserLoginDto.Password">
+            <summary>
+            用户密码
+            </summary>
+        </member>
+        <member name="T:KGM.Framework.Application.Dtos.UserSelDto">
+            <summary>
+            用户Dto
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserSelDto.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserSelDto.RoleId">
+            <summary>
+             角色Id
+             </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserSelDto.RoleName">
+            <summary>
+             角色名称
+             </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserSelDto.Gender">
+            <summary>
+             角色性别
+             </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserSelDto.Account">
+            <summary>
+            账户
+            </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserSelDto.RealName">
+            <summary>
+            真实姓名
+            </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserSelDto.NickName">
+            <summary>
+            昵称
+            </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserSelDto.Birthday">
+            <summary>
+             生日
+             </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserSelDto.Email">
+            <summary>
+             邮箱
+             </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserSelDto.PhoneTel">
+            <summary>
+             电话
+             </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserSelDto.OICQ">
+            <summary>
+             QQ
+             </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserSelDto.WeChat">
+            <summary>
+             微信
+             </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserSelDto.HeadIcon">
+            <summary>
+            用户头像
+            </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserSelDto.CompanyId">
+            <summary>
+            公司ID
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserSelDto.CompanyName">
+            <summary>
+            公司名称
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserSelDto.DepartmentId">
+            <summary>
+            部门Id
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserSelDto.DepartmentName">
+            <summary>
+            部门名称
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserSelDto.Mobile">
+            <summary>
+            手机
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserSelDto.SortCode">
+            <summary>
+            排序码
+            </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserSelDto.DeleteMark">
+            <summary>
+            删除标志
+            </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserSelDto.EnabledMark">
+            <summary>
+            有效标志
+            </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserSelDto.Description">
+            <summary>
+            描述
+            </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserSelDto.CreatorTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserSelDto.CreatorUserId">
+            <summary>
+            创建用户
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserSelDto.LastModifyTime">
+            <summary>
+            最后修改时间
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserSelDto.LastModifyUserId">
+            <summary>
+            最后修改用户
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserSelDto.DeleteTime">
+            <summary>
+            删除时间
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserSelDto.DeleteUserId">
+            <summary>
+            删除用户
+            </summary> 
+        </member>
+        <member name="T:KGM.Framework.Application.Dtos.UserSingleDto">
+            <summary>
+            用户Dto
+            </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserSingleDto.EnCode">
+            <summary>
+            工号
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserSingleDto.Password">
+            <summary>
+            密码
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserSingleDto.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserSingleDto.Account">
+            <summary>
+            账号
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserSingleDto.RealName">
+            <summary>
+            真实姓名
+            </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserSingleDto.NickName">
+            <summary>
+            昵称
+            </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserSingleDto.HeadIcon">
+            <summary>
+            用户头像
+            </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserSingleDto.RoleId">
+            <summary>
+            角色ID
+            </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserSingleDto.CompanyId">
+            <summary>
+            机构ID
+            </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserSingleDto.CompanyFullName">
+            <summary>
+            机构名称
+            </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserSingleDto.DepartmentId">
+            <summary>
+            部门ID
+            </summary>  
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserSingleDto.DepartmentFullName">
+            <summary>
+            部门名称
+            </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserSingleDto.Description">
+            <summary>
+            描述
+            </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserSingleDto.Mobile">
+            <summary>
+            手机
+            </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserSingleDto.Gender">
+            <summary>
+            性别
+            </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserSingleDto.Birthday">
+            <summary>
+            性别
+            </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserSingleDto.Telephone">
+            <summary>
+            性别
+            </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserSingleDto.OICQ">
+            <summary>
+            QQ
+            </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserSingleDto.WeChat">
+            <summary>
+            微信
+            </summary> 
+        </member>
+        <member name="T:KGM.Framework.Application.Dtos.UserUpdateDto">
+            <summary>
+            用户Dto
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserUpdateDto.RoleId">
+            <summary>
+             角色Id
+             </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserUpdateDto.IsAdmin">
+            <summary>
+             是否是超级管理员
+             </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserUpdateDto.Mobile">
+            <summary>
+             电话
+             </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserUpdateDto.PassWord">
+            <summary>
+            密码
+            </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserUpdateDto.Account">
+            <summary>
+            账户
+            </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserUpdateDto.RealName">
+            <summary>
+            真实姓名
+            </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserUpdateDto.NickName">
+            <summary>
+            昵称
+            </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserUpdateDto.HeadIcon">
+            <summary>
+            用户头像
+            </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserUpdateDto.CompanyId">
+            <summary>
+            公司ID
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserUpdateDto.Gender">
+            <summary>
+             角色性别
+             </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserUpdateDto.Birthday">
+            <summary>
+             生日
+             </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserUpdateDto.Email">
+            <summary>
+             邮箱
+             </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserUpdateDto.PhoneTel">
+            <summary>
+             电话
+             </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserUpdateDto.OICQ">
+            <summary>
+             QQ
+             </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserUpdateDto.WeChat">
+            <summary>
+             微信
+             </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserUpdateDto.DepartmentId">
+            <summary>
+            部门Id
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserUpdateDto.SortCode">
+            <summary>
+            排序码
+            </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserUpdateDto.DeleteMark">
+            <summary>
+            删除标志
+            </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserUpdateDto.EnabledMark">
+            <summary>
+            有效标志
+            </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserUpdateDto.Description">
+            <summary>
+            描述
+            </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserUpdateDto.CreatorTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserUpdateDto.CreatorUserId">
+            <summary>
+            创建用户
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserUpdateDto.LastModifyTime">
+            <summary>
+            最后修改时间
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserUpdateDto.LastModifyUserId">
+            <summary>
+            最后修改用户
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserUpdateDto.DeleteTime">
+            <summary>
+            删除时间
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.UserUpdateDto.DeleteUserId">
+            <summary>
+            删除用户
+            </summary> 
+        </member>
+        <member name="T:KGM.Framework.Application.Dtos.U8.Inventorys">
+            <summary>
+            仓库对象
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.U8.Inventorys.status">
+            <summary>
+            检验状态码
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.U8.Inventorys.boxed">
+            <summary>
+            已装箱
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.U8.Inventorys.ConstantVolume">
+            <summary>
+            定容
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.U8.Inventorys.Margin">
+            <summary>
+            余量
+            </summary>        
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.U8.Inventorys.BoxCount">
+            <summary>
+            箱数
+            </summary>        
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.U8.Inventorys.cInvCode">
+            <summary>
+            存货编码
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.U8.Inventorys.cWhname">
+            <summary>
+            仓库名称
+            </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.U8.Inventorys.cWhCode">
+            <summary>
+            仓库编码
+            </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.U8.Inventorys.cBatch">
+            <summary>
+            批号
+            </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.U8.Inventorys.cInvName">
+            <summary>
+            存货名称
+            </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.U8.Inventorys.cInvStd">
+            <summary>
+            规格型号
+            </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.U8.Inventorys.iquantity">
+            <summary>
+            数量
+            </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.U8.Inventorys.iNum">
+            <summary>
+            结存铺计数量
+            </summary> 
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.U8.Inventorys.cCheckState">
+            <summary>
+            检验状态
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.U8.Inventorys.th">
+            <summary>
+            图号
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.U8.Inventorys.lr">
+            <summary>
+            左右灯
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.U8.Inventorys.define3">
+            <summary>
+            左右灯
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.U8.Inventorys.desct">
+            <summary>
+            左右灯
+            </summary>
+        </member>
+        <member name="T:KGM.Framework.Application.Dtos.U8.U8Customer">
+            <summary>
+            仓库对象
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.U8.U8Customer.CCusCode">
+            <summary>
+            仓库编码
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.U8.U8Customer.CCusName">
+            <summary>
+            仓库名称
+            </summary>
+        </member>
+        <member name="T:KGM.Framework.Application.Dtos.U8.U8Warehouse">
+            <summary>
+            仓库对象
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.U8.U8Warehouse.CWhCode">
+            <summary>
+            仓库编码
+            </summary>
+        </member>
+        <member name="P:KGM.Framework.Application.Dtos.U8.U8Warehouse.CWhName">
+            <summary>
+            仓库名称
+            </summary>
+        </member>
+        <member name="T:KGM.Framework.Application.Services.IPackageInventoryService">
+            <summary>
+            仓库包装接口
+            </summary>
+        </member>
+        <member name="M:KGM.Framework.Application.Services.IPackageInventoryService.QueryPackageIuveutoryByPagesAsync(KGM.Framework.Infrastructure.PagerInfo,System.Collections.Generic.List{KGM.Framework.Infrastructure.SearchCondition})">
+            <summary>
+            分页查询 + 条件查询 + 排序
+            </summary> 
+            <param name="pager">分页对象</param>
+            <param name="condition">过滤条件</param>
+            <returns></returns>
+        </member>
+        <member name="M:KGM.Framework.Application.Services.IPackageInventoryService.QueryPackageInventoryAll">
+            <summary>
+            获取包装档案
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:KGM.Framework.Application.Services.PackageInventoryService">
+            <summary>
+            包装仓库服务实现
+            </summary>
+        </member>
+        <member name="M:KGM.Framework.Application.Services.PackageInventoryService.#ctor(KGM.Framework.Domain.IPackageInventoryRepository,AutoMapper.IMapper)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="repository"></param>
+            <param name="mapper"></param>
+        </member>
+        <member name="M:KGM.Framework.Application.Services.PackageInventoryService.QueryPackageIuveutoryByPagesAsync(KGM.Framework.Infrastructure.PagerInfo,System.Collections.Generic.List{KGM.Framework.Infrastructure.SearchCondition})">
+            <summary>
+            分页查询 + 条件查询 + 排序
+            </summary>
+            <param name="pager"></param>
+            <param name="condition"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KGM.Framework.Application.Services.PackageInventoryService.QueryPackageInventoryAll">
+            <summary>
+            获取包装档案
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:KGM.Framework.Application.Services.IpositionService">
+            <summary>
+            工位档案接口
+            </summary>
+        </member>
+        <member name="T:KGM.Framework.Application.Services.PositionService">
+            <summary>
+            工位档案服务实现
+            </summary>
+        </member>
+        <member name="M:KGM.Framework.Application.Services.PositionService.#ctor(KGM.Framework.Domain.IPositionFilesRepository,AutoMapper.IMapper)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="repository"></param>
+            <param name="mapper"></param>
+        </member>
+        <member name="T:KGM.Framework.Application.Services.IPrintLogService">
+            <summary>
+            log接口
+            </summary>
+        </member>
+        <member name="T:KGM.Framework.Application.Services.PrintLogService">
+            <summary>
+            log服务实现
+            </summary>
+        </member>
+        <member name="M:KGM.Framework.Application.Services.PrintLogService.#ctor(KGM.Framework.Domain.IPrintLogRepository,AutoMapper.IMapper)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="repository"></param>
+            <param name="mapper"></param>
+        </member>
+        <member name="T:KGM.Framework.Application.Services.ITaskService">
+            <summary>
+            任务记录接口
+            </summary>
+        </member>
+        <member name="M:KGM.Framework.Application.Services.ITaskService.CreateTask(System.Collections.Generic.List{KGM.Framework.Application.Dtos.U8.Inventorys},System.String,System.String,System.String,System.String,System.Int32)">
+            <summary>
+            创建Task
+            </summary>
+            <param name="list">U8库存集合</param>
+            <returns></returns>
+        </member>
+        <member name="T:KGM.Framework.Application.Services.TaskService">
+            <summary>
+            任务服务实现
+            </summary>
+        </member>
+        <member name="M:KGM.Framework.Application.Services.TaskService.#ctor(KGM.Framework.Domain.ITaskRepository,AutoMapper.IMapper)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="repository"></param>
+            <param name="mapper"></param>
+        </member>
+        <member name="M:KGM.Framework.Application.Services.TaskService.CreateTask(System.Collections.Generic.List{KGM.Framework.Application.Dtos.U8.Inventorys},System.String,System.String,System.String,System.String,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="list"></param>
+            <returns></returns>
+        </member>
+        <member name="T:KGM.Framework.Application.Services.IUserProfilesService">
+            <summary>
+            用户档案接口
+            </summary>
+        </member>
+        <member name="M:KGM.Framework.Application.Services.IUserProfilesService.QueryUserProfilesByPagesAsync(KGM.Framework.Infrastructure.PagerInfo,System.Collections.Generic.List{KGM.Framework.Infrastructure.SearchCondition})">
+            <summary>
+            分页查询 + 条件查询 + 排序
+            </summary> 
+            <param name="pager">分页对象</param>
+            <param name="condition">过滤条件</param>
+            <returns></returns>
+        </member>
+        <member name="M:KGM.Framework.Application.Services.IUserProfilesService.QueryUserProfilesAll">
+            <summary>
+            获取用户档案
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:KGM.Framework.Application.Services.UserProfilesService">
+            <summary>
+            用户档案服务实现
+            </summary>
+        </member>
+        <member name="M:KGM.Framework.Application.Services.UserProfilesService.#ctor(KGM.Framework.Domain.IUserProfilesRepository,AutoMapper.IMapper)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="repository"></param>
+            <param name="mapper"></param>
+        </member>
+        <member name="M:KGM.Framework.Application.Services.UserProfilesService.QueryUserProfilesByPagesAsync(KGM.Framework.Infrastructure.PagerInfo,System.Collections.Generic.List{KGM.Framework.Infrastructure.SearchCondition})">
+            <summary>
+            分页查询 + 条件查询 + 排序
+            </summary>
+            <param name="pager"></param>
+            <param name="condition"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KGM.Framework.Application.Services.UserProfilesService.QueryUserProfilesAll">
+            <summary>
+            获取用户档案
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:KGM.Framework.Application.Services.IUserService">
+            <summary>
+            用户服务接口
+            </summary>
+        </member>
+        <member name="M:KGM.Framework.Application.Services.IUserService.QueryUserByPagesAsync(KGM.Framework.Infrastructure.PagerInfo,System.Collections.Generic.List{KGM.Framework.Infrastructure.SearchCondition})">
+            <summary>
+            分页查询 + 条件查询 + 排序
+            </summary> 
+            <param name="pager">分页对象</param>
+            <param name="condition">过滤条件</param>
+            <returns></returns>
+        </member>
+        <member name="M:KGM.Framework.Application.Services.IUserService.UpdatePwd(System.String,System.String)">
+            <summary>
+            修改密码
+            </summary>
+            <param name="Id"></param>
+            <param name="Pwd"></param>
+            <returns></returns>
+        </member>
+        <member name="T:KGM.Framework.Application.Services.UserService">
+            <summary>
+            用户服务实现
+            </summary>
+        </member>
+        <member name="M:KGM.Framework.Application.Services.UserService.#ctor(KGM.Framework.Domain.IUserRepository,AutoMapper.IMapper)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="repository"></param>
+            <param name="mapper"></param>
+        </member>
+        <member name="M:KGM.Framework.Application.Services.UserService.QueryUserByPagesAsync(KGM.Framework.Infrastructure.PagerInfo,System.Collections.Generic.List{KGM.Framework.Infrastructure.SearchCondition})">
+            <summary>
+            分页查询 + 条件查询 + 排序
+            </summary>
+            <param name="pager"></param>
+            <param name="condition"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KGM.Framework.Application.Services.UserService.UpdatePwd(System.String,System.String)">
+            <summary>
+            修改密码
+            </summary>
+            <param name="Id"></param>
+            <param name="Pwd"></param>
+            <returns></returns>
+        </member>
+        <member name="T:KGM.Framework.Application.Services.IU8Service">
+            <summary>
+            用户服务接口
+            </summary>
+        </member>
+        <member name="M:KGM.Framework.Application.Services.IU8Service.GetAllWarehouse(System.String)">
+            <summary>
+            读取U8仓库
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:KGM.Framework.Application.Services.IU8Service.GetInventorys">
+            <summary>
+            读取U8存货
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:KGM.Framework.Application.Services.IU8Service.QueryInventorysByCode(System.String,System.String)">
+            <summary>
+            根据编码读取U8存货
+            </summary>
+            <param name="code"></param>
+            <param name="cWhCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KGM.Framework.Application.Services.IU8Service.QueryInventorysByWhCode(System.String,System.String)">
+            <summary>
+            根据仓库读取U8存货
+            </summary>
+            <param name="WhCode"></param>
+            <param name="position"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KGM.Framework.Application.Services.IU8Service.QueryUndoList(System.String,System.String)">
+            <summary>
+            获取未操作数据
+            </summary>
+            <param name="WhCode"></param>
+            <param name="cInvCode"></param>
+            <returns></returns>
+        </member>
+        <member name="T:KGM.Framework.Application.Services.U8Service">
+            <summary>
+            用户服务实现
+            </summary>
+        </member>
+        <member name="M:KGM.Framework.Application.Services.U8Service.#ctor(KGM.Framework.Domain.IU8Repository,AutoMapper.IMapper)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="repository"></param>
+            <param name="mapper"></param>
+        </member>
+        <member name="M:KGM.Framework.Application.Services.U8Service.GetAllWarehouse(System.String)">
+            <summary>
+            获取U8仓库
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:KGM.Framework.Application.Services.U8Service.GetInventorys">
+            <summary>
+            获取U8存货
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:KGM.Framework.Application.Services.U8Service.QueryInventorysByCode(System.String,System.String)">
+            <summary>
+            根据编码获取U8存货
+            </summary>
+            <param name="InvCode"></param>
+            <param name="cWhCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KGM.Framework.Application.Services.U8Service.QueryInventorysByWhCode(System.String,System.String)">
+            <summary>
+            根据仓库获取U8存货
+            </summary>
+            <param name="WhCode"></param>
+            <param name="position"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KGM.Framework.Application.Services.U8Service.QueryUndoList(System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="WhCode"></param>
+            <param name="cInvCode"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

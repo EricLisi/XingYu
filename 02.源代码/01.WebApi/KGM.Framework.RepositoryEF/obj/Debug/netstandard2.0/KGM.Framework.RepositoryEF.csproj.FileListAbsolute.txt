@@ -1,0 +1,10 @@
+D:\X 项目管理\Czxy_PackagePrint\02.源代码\01.WebApi\KGM.Framework.RepositoryEF\obj\Debug\netstandard2.0\KGM.Framework.RepositoryEF.csprojAssemblyReference.cache
+D:\X 项目管理\Czxy_PackagePrint\02.源代码\01.WebApi\KGM.Framework.RepositoryEF\obj\Debug\netstandard2.0\KGM.Framework.RepositoryEF.csproj.CoreCompileInputs.cache
+D:\X 项目管理\Czxy_PackagePrint\02.源代码\01.WebApi\KGM.Framework.RepositoryEF\obj\Debug\netstandard2.0\KGM.Framework.RepositoryEF.AssemblyInfoInputs.cache
+D:\X 项目管理\Czxy_PackagePrint\02.源代码\01.WebApi\KGM.Framework.RepositoryEF\obj\Debug\netstandard2.0\KGM.Framework.RepositoryEF.AssemblyInfo.cs
+D:\X 项目管理\Czxy_PackagePrint\02.源代码\01.WebApi\KGM.Framework.WebApi\bin\Debug\netcoreapp2.1\netstandard2.0\KGM.Framework.RepositoryEF.deps.json
+D:\X 项目管理\Czxy_PackagePrint\02.源代码\01.WebApi\KGM.Framework.WebApi\bin\Debug\netcoreapp2.1\netstandard2.0\KGM.Framework.RepositoryEF.dll
+D:\X 项目管理\Czxy_PackagePrint\02.源代码\01.WebApi\KGM.Framework.WebApi\bin\Debug\netcoreapp2.1\netstandard2.0\KGM.Framework.RepositoryEF.pdb
+D:\X 项目管理\Czxy_PackagePrint\02.源代码\01.WebApi\KGM.Framework.RepositoryEF\obj\Debug\netstandard2.0\KGM.Framework.RepositoryEF.csproj.CopyComplete
+D:\X 项目管理\Czxy_PackagePrint\02.源代码\01.WebApi\KGM.Framework.RepositoryEF\obj\Debug\netstandard2.0\KGM.Framework.RepositoryEF.dll
+D:\X 项目管理\Czxy_PackagePrint\02.源代码\01.WebApi\KGM.Framework.RepositoryEF\obj\Debug\netstandard2.0\KGM.Framework.RepositoryEF.pdb
